@@ -1,0 +1,38 @@
+<section>
+  <div class="tile-top">
+    <div class="little-vid">
+      <div class="youtube-embed">
+        <div class="youtube-click" ng-click="tileCtrl.switchVid(tileCtrl.littleVid, tileCtrl.bigVid)">
+
+        </div>
+        <div class="youtube-tile-sizer">
+          <iframe id="ytplayer" type="text/html" width="100%" height="100%"
+            ng-src="{{tileCtrl.littleVid.vid}}"
+            frameborder="0" ></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="tile-top-info">
+      <p>{{tileCtrl.littleVid.type}}</p>
+      <h2>{{tileCtrl.littleVid.title}}</h2>
+      <p>{{tileCtrl.littleVid.description}}</p>
+    </div>
+
+  </div>
+  <div class="tile-bottom">
+    <div class="big-vid">
+      <div class="youtube-embed">
+        <div class="youtube-tile-sizer">
+          <iframe id="ytplayer" type="text/html" width="100%" height="100%"
+            ng-src="{{tileCtrl.bigVid.vid}}"
+            frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+    <p>{{tileCtrl.bigVid.type}}</p>
+    <h2>{{tileCtrl.bigVid.title}}</h2>
+    <p>{{tileCtrl.bigVid.description}}</p>
+
+  </div>
+
+</section>

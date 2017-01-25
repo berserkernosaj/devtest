@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html ng-app="devtest">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/style.css">
+
+
     <title></title>
   </head>
-  <body ng-controller="articleCtrl as articleCtrl">
+  <body ng-controller="mCtrl as mCtrl">
+    <div class="menu">
+      <span class="menu-item" ng-click="mCtrl.go('article')">Article</span>
+      <span class="menu-item" ng-click="mCtrl.go('tiles')">Tiles</span>
+      <span class="menu-item" ng-click="mCtrl.go('tile')">Tile</span>
+    </div>
     <div class="mainContainer" ui-view>
 
     </div>
@@ -13,6 +22,9 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
 <script type="text/javascript" src="/app.js"></script>
 <script type="text/javascript" src="/js/controllers/articleCtrl.js"></script>
+<script type="text/javascript" src="/js/controllers/mCtrl.js"></script>
+<script type="text/javascript" src="/js/controllers/tileCtrl.js"></script>
+
 
 
   </body>

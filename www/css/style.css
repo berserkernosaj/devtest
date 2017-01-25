@@ -1,0 +1,175 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+.article-main{
+  margin-left: 15%;
+  margin-right: 10%;
+}
+.article-main p{
+  width: 80%;
+}
+.thumbnail-size{
+  height: 60px;
+  margin: 5px 0;
+}
+.full-size{
+  width: 100%;
+}
+.article-image-box{
+  position: relative;
+  width: 100%;
+
+}
+.thumbnail-box{
+  width: 50%;
+  height: 84px;
+  text-align: right;
+  float: left;
+
+}
+.image-text{
+  float: left;
+  display: block;
+  width: 50%;
+}
+.image-text :first-child{
+  font-weight: bold;
+  font-size: 18px;
+}
+.paragraph-box{
+  float: left;
+  width: 60%;
+}
+.paragraph-box p {
+  width: 95%;
+}
+.movie-box{
+  float:left;
+  width: 40%;
+}
+.vid-title{
+  padding-top: 10%;
+  font-weight: bold;
+  font-size: 18px;
+}
+.youtube-click{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  z-index: 1;
+}
+.little-vid .youtube-tile-sizer{
+  z-index: -1;
+}
+.youtube-embed{
+  position: relative;
+  display: block;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: visible;
+}
+.youtube-sizer{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 120%;
+  height: 120%;
+  border: 0;
+}
+.youtube-tile-sizer{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.stop-float{
+  clear: both;
+}
+.main-title{
+  font-size: 2.6875em;
+  margin-top: 0;
+
+}
+.border-master{
+  width: 120%;
+  border-bottom: solid 1px;
+}
+.tileset{
+  width: 100%;
+  height: 33%;
+  margin: 0 10px;
+  overflow:hidden;
+}
+.tile{
+  height: 100%;
+  width: 32%;
+  display: inline-block;
+  padding: .5% .25%;
+}
+.tile img {
+    width: 100%;
+}
+.area-border{
+  border: solid 4px rgb(223,70,97);
+	width: 97.25%;
+
+}
+.news-border{
+  border: solid 4px rgb(0,95,131);
+	width: 97.25%;
+
+}
+.inspirational-border{
+  border: solid 4px rgb(107,165,57);
+	width: 97.25%;
+
+}
+.menu{
+  height: auto;
+  width: 100%;
+  background: rgb(0, 95, 131);
+  margin: none;
+}
+.menu-item{
+  border-left: solid 1px black;
+  color: white;
+  margin-right: 10px;
+}
+.tile-top{
+  margin: 8% 10%;
+}
+.little-vid{
+  width: 300px;
+  display: inline-block;
+}
+.tile-top-info{
+  display: inline-block;
+  width: 59%;
+  margin-left: 1%;
+  vertical-align: top;
+}
+.tile-top-info :first-child{
+  margin: 0;
+}
+.tile-top-info h2{
+  margin: 0;
+}
+.tile-bottom{
+  margin: 0 10% 5% 10%;
+}
+.tile-bottom h2{
+  margin: 0 1% 15px ;
+}
+.tile-bottom p{
+  margin: 10px 1% 0;
+}
